@@ -1,0 +1,73 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.just-center {
+  justify-content: center;
+}
+
+.imagePP {
+  width: 150px;
+  height: 150px;
+}
+.imagePP > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.sosmed {
+  list-style: none;
+  gap: 1rem;
+}
+.navbar {
+  list-style: none;
+  justify-content: flex-end;
+  gap: 1rem;
+
+}
+.navbar button {
+  list-style: none;
+  np
+}
+
+.profil{
+  text-align: center;
+  gap: 0.5rem;
+}
+.nama{
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.job{
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.profilText{
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: justify;
+  margin: 1rem auto;
+}
+.contact ul{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem
+}
+.contact li{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.contactMe{
+  font-size: 0.8rem;
+}
